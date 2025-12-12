@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual env
+venv/
+.venv/
+
+# Local DB
+test.db
+*.sqlite3
+
+# Uploads (user files)
+app/uploads/
+
+# OS / editor
+.DS_Store
+.vscode/
