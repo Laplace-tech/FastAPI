@@ -1,18 +1,18 @@
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Virtual env
+# 가상환경
 venv/
-.venv/
 
-# Local DB
+# DB 파일
 test.db
-*.sqlite3
 
-# Uploads (user files)
+# 업로드 파일
 app/uploads/
 
-# OS / editor
-.DS_Store
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# 환경변수 파일
+.env
+
+# IDE 설정 파일
 .vscode/
